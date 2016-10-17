@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FD9CBC8-B0BD-E0A0-A75E-AD48376C6EB1" name="DET_PEDIDO">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>5583138A-6D10-AA54-B3D5-6380C84C016B</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CANTIDAD" id="4B59BAEF-039F-4024-0A14-57B69A41C831">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>B66AEB7C-98AF-C1E0-42A6-27D1F705381B</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBTOTAL" id="3108D494-9003-ABD8-7D0B-D202816F5197">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>BE173C8C-F94F-35FA-3B8C-F1E5495FFC48</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PEDIDO" id="BB5CBE9F-84A5-3F52-0DB2-95770F791F8D">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>77158B56-00D0-4A1A-9038-E0A194174F05</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A659E5F-4F2B-97D9-B7A7-413BC6E1B6A8" referredColumn="3325336D-4099-A690-E4A2-7D88AC6A5A87"/>
+</associations>
+</Column>
+<Column name="ID_MENU" id="F4CB2A0D-1FFD-8DC0-1311-FFEDA2D4F37C">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>3E14735A-58A7-F8E0-E722-ED749F25F80E</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81AA7E0B-CD6C-FA8D-C792-2D8E095DE289" referredColumn="4E55BF3D-AB41-8BE7-9B44-3B5F1C8F2F74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEE285F8-77E6-C680-57D8-4E9F5D861DA2" name="DET_PEDIDO_PEDIDO_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>3AB0041E-A562-F0CC-F7A6-80236663CD95</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB5CBE9F-84A5-3F52-0DB2-95770F791F8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58FCD08E-8E78-4787-5230-6130094C88AC" name="DET_PEDIDO_MENU_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>4998379D-C52C-D45A-5F67-D97BDDF4FDCD</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4CB2A0D-1FFD-8DC0-1311-FFEDA2D4F37C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

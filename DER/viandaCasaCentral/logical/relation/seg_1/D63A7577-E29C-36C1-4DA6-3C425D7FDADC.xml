@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_99" directorySegmentName="seg_1" id="D63A7577-E29C-36C1-4DA6-3C425D7FDADC">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 01:44:25 UTC</createdTime>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<sourcePk>04D67A64-1BA7-7E02-1B94-058032A05738</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51F53F06-96A6-5B45-F615-E4D21BD47890</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F6029FF0-4DEB-3C96-3945-5CE5AFA9EE0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8ADDD04-969F-50BB-1CA1-C18E832DB5FD" name="TIPO PLATO">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<importedID>DBABB937-68BF-811B-1C0C-ABBCEBF02F04</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TIPO" id="D1978BB2-BC2A-D761-0F00-316CC21F1334">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<importedID>FFD81F53-F131-81F8-422A-50679520BF23</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="ECC62CE8-C756-A346-B0A4-51F5D42725AE">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<importedID>DB62E5BF-9F56-4231-4734-3971CAA5F717</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72F6610D-07FB-8303-4AD0-3F760A790DD4" name="TIPO PLATO PK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<importedID>82F635BA-FF42-C6B0-A52D-4BFA0048F4B7</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1978BB2-BC2A-D761-0F00-316CC21F1334</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

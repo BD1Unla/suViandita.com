@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B06C0FD2-3D37-7E58-8375-B904DC4F8479" name="CLAS_PLATO">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>A8BFC9F0-3804-C7D1-9347-80A27953705A</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLAS" id="8241896D-68FA-06AF-6D51-8267779949B4">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>C6739165-2519-B9A5-DBBC-778973A3A979</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8E58005E-C404-BB75-8654-310BBB568430">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>21A53DAD-49C9-77E6-AD74-3E6715A68540</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20095FC7-B3F5-491C-6196-D5A7DAFA1956" name="CLAS_PLATO_PK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>7A682E2E-7EA8-B681-EB44-6C9D8F04EFB2</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8241896D-68FA-06AF-6D51-8267779949B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

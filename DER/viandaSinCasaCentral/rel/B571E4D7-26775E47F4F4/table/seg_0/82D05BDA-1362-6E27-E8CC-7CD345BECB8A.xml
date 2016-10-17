@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82D05BDA-1362-6E27-E8CC-7CD345BECB8A" name="TC">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>6FBC8CC7-994E-E5E3-4DCD-87997656E147</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TC" id="977EA110-54C1-A5D8-4C70-B020D19D3908">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>029E0EB9-7FF3-55C8-042E-45E0D0D13BD8</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="429EAC7C-F567-43E2-612D-FCEEF2874339">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>9EEC2A7E-33FB-073C-8405-227F5F9F95E8</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_SEG" id="4270D70A-CCA6-B6A6-BF31-19243DBD8A32">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>ADDD6925-EEF2-D1E1-0EB3-EA64756552F8</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VENC" id="F18796E5-4CDB-7E58-D106-264D6A5F8F26">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>5D575DD3-6D19-C12A-BF57-5284442615CF</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="3B84A878-C134-BDA5-CCF3-77557B27973B">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>3EA4E4E5-0858-D961-9C75-D56801C76054</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83142451-CA32-B52A-96DF-2FDBD8871C09" referredColumn="0537714A-3330-AA02-4CF1-3FBABEC6EA6B"/>
+</associations>
+</Column>
+<Column name="ID_EMISOR" id="C16F623A-3F67-256B-B9D9-93E58E1D4DAA">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>49EB1AE3-B52F-A520-45D8-A5B86977BCB6</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29297AA5-12DB-448E-8577-F036A9D1EC34" referredColumn="AB5DD83E-68F2-2FDB-FE11-33C091F71542"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90C49F17-C75D-62D2-6A56-BD2D9363C2BB" name="TC_PK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>A9377251-56B7-EA8A-8BED-40078610BD9E</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="977EA110-54C1-A5D8-4C70-B020D19D3908"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="819AB3A9-7C26-CAAD-23CC-C29BE504087A" name="TC_CLIENTE_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>BC8E8A26-C995-2458-6856-885E945D4474</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B84A878-C134-BDA5-CCF3-77557B27973B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D38FE8F2-C304-1F4C-9706-26258C60A970" name="TC_EMISOR_TC_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>31A59A9C-348C-6DC1-E89E-C9CA08CBF9F9</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C16F623A-3F67-256B-B9D9-93E58E1D4DAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

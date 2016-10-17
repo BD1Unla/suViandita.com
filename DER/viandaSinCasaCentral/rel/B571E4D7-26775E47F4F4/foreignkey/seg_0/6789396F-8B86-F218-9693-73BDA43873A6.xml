@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6789396F-8B86-F218-9693-73BDA43873A6" containerWithKeyObject="FD4E361A-689C-C379-84FB-86FB70A81C14" localFKIndex="07807332-9DC4-C837-6316-6FB28FC6DF7C" name="ORD_COMP_SUCURSAL_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>87253FE8-F173-2CAA-74DC-B38191DFA97B</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5B7437F-B39E-9C69-23F5-B66F47C0DE12</referredTableID>
+<keyObject>3E50FB18-364E-88F9-BE6D-B65E45514865</keyObject>
+<referredKeyID>3E50FB18-364E-88F9-BE6D-B65E45514865</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37CF7CB0-B1BC-74D5-CFB1-E44131D948CC" name="MENU">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>C60C99B8-2B01-FF5D-22FA-BBE4E127DF64</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID MENU" id="59E2CA98-B699-15A1-1D4D-A93512AF7C1B">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>90CE5950-4DCC-3083-1ECC-74501A79AA23</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="5C6E393D-D4FD-9127-863C-10F16F3DCDD6">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>57797B60-909D-18E8-B1D4-D9B4DC77CE70</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INICIO VIGENCIA" id="B36FC37E-D7A7-AA2C-70BC-5A96F943D995">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>63FD4B2F-619E-72A5-3B6A-9E12B45F816B</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIN VIGENCIA" id="1BE7DFE4-9DC4-7704-6F11-BE447D21D4F8">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>C8E3835B-D389-1697-3E98-B1C5AD8B1100</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO" id="8A9C6BB0-8175-7430-C0B4-ABE52F93B4E5">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>36587216-74A0-4B2D-DB45-628E069EB8EE</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03EDC2FD-D3BA-C56B-7B3B-E18A6317AE0F" name="PROMOCION PK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>8DA1525A-1DAD-9A81-1C7A-05DAEAA028DD</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59E2CA98-B699-15A1-1D4D-A93512AF7C1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

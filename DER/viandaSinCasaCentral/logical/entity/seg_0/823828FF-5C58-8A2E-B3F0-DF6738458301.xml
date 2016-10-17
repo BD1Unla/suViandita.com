@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="823828FF-5C58-8A2E-B3F0-DF6738458301" name="DET_RECETA">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 01:27:00 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CANTIDAD" id="6E088FF0-FC5B-A283-EA64-CCF8C65DEEB3">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 01:27:09 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PRODUCTO" id="94A606FC-0F08-DFA3-001E-A6943A382F67">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 01:28:01 UTC</createdTime>
+<generatorID>581E8F8E-E619-F724-4AD0-4B0A369E96BA</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<referedAttribute>05A8CBD4-B16A-31D7-6E1C-C7A88A717C2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLATO" id="F68D71F4-63F5-334F-CB3A-3A72BFF3AFBF">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 01:28:18 UTC</createdTime>
+<generatorID>F9E5A3BD-2A7E-C1A1-39E0-C101053800E4</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<referedAttribute>D0878E71-1CCC-3A69-6B05-D46129C0670D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

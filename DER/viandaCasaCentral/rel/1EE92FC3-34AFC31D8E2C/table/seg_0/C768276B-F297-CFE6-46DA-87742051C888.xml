@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C768276B-F297-CFE6-46DA-87742051C888" name="DET_PROV">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>F63804DA-FBD0-62F2-4E98-7A69852D0FEB</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="DF8DB3EF-B0D4-5BC7-B578-3F8B5BA219DA">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>15A64498-4647-3A30-5DBE-BB774460A5A6</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C0760E5-2B4B-F9C3-C250-26A2D88C2CFB" referredColumn="3A1B541A-6901-A4E7-EEED-AB6EEC99F2A8"/>
+</associations>
+</Column>
+<Column name="LOTE_MIN" id="5706A66C-94DD-8D0A-F78E-643B69D7FFEC">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>E3CB7894-93D7-AD3A-85B1-62162CA93486</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="46D98C51-A784-B27B-3B4C-BFC555BED813">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>B572CC25-61F5-5365-A781-075204B87B2B</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PROV" id="52FC0AC2-658C-4BDB-734D-48AD7813035A">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>52895E2F-1FFF-6BEF-C459-098B5D3A205A</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0ADD99B-4045-5597-C39B-5B11B3522250" referredColumn="F0F8E534-3AD1-509C-510A-D5344A43A2ED"/>
+</associations>
+</Column>
+<Column name="ID_UNID_PROV" id="A1D3096E-449B-748C-D8CF-3C9AD9CC9AC4">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>ADCCB684-2600-1196-5B72-4544D8406614</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC930FE0-9C73-1F74-8B97-1DE97DD6A5E1" referredColumn="7EEC2C41-2579-FB64-B717-68F709F03568"/>
+</associations>
+</Column>
+<Column name="CANT_UNI_PROD" id="D16AF26C-E24A-273D-83AF-9FB3C9B9B89B">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>45BEBF60-8376-7A9D-3BF0-F879CB349D32</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBE46608-32FB-0506-B15E-EEED28562803" name="DET_PROV_PK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>F92E0047-57F0-E5FA-CC7B-2A17A3A57CF1</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF8DB3EF-B0D4-5BC7-B578-3F8B5BA219DA"/>
+<colUsage columnID="52FC0AC2-658C-4BDB-734D-48AD7813035A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3982143B-1338-185D-F1D4-50A58F1C38C9" name="DET_PROV__IDX">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E01B2C7F-31C0-77BE-E17E-C779424A4974</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A1D3096E-449B-748C-D8CF-3C9AD9CC9AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3988C66C-8858-A78F-210E-C5FED5BCBF4A" name="DET_PROV_PRODUCTO_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>AFCE8414-6733-6D72-3CBD-90C539682ADF</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF8DB3EF-B0D4-5BC7-B578-3F8B5BA219DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FE89CB9-7E6C-6D8F-5EC8-2DE2C97D9345" name="DET_PROV_PROVEEDOR_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>C7AD71D6-4997-DF6D-4D63-14AE9662B66D</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52FC0AC2-658C-4BDB-734D-48AD7813035A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A85BC7B5-EA6A-7B88-B070-541205420E23" name="DET_PROV_UNI_PROVEEDOR_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>E01B2C7F-31C0-77BE-E17E-C779424A4974</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1D3096E-449B-748C-D8CF-3C9AD9CC9AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

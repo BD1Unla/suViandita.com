@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8BFC9F0-3804-C7D1-9347-80A27953705A" name="CLAS PLATO">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>EF9D2147-C96A-2949-095C-385CB14051AB</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLAS" id="C6739165-2519-B9A5-DBBC-778973A3A979">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>C9AB88F7-09A3-D4D8-44F1-55A2631956A5</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="21A53DAD-49C9-77E6-AD74-3E6715A68540">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>4534A138-97C3-AEAB-3994-73A00BFFB9EC</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A682E2E-7EA8-B681-EB44-6C9D8F04EFB2" name="CLAS PLATO PK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:56:29 UTC</createdTime>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<importedID>F520F322-AA05-2C13-BE21-565EAE81AA93</importedID>
+<engineerTo>
+<item key="B96D2851-AD33-8C91-FB51-2D183DF6F7A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6739165-2519-B9A5-DBBC-778973A3A979</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

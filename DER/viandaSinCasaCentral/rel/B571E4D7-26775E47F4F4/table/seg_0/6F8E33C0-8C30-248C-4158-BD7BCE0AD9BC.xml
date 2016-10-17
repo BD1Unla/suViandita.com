@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F8E33C0-8C30-248C-4158-BD7BCE0AD9BC" name="RADIO_ENTREGA">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>32A5D3BD-E758-8829-9931-7C450E64DF6C</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_POSTAL" id="F7B120B6-9E5D-7350-57F1-3E21BF96BC15">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>9DA95921-803A-98FD-F5ED-8534749AD6DB</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONA" id="B89EC9C8-9FF7-2BC3-4A4C-742DC13C2B73">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>D0755045-8CE1-D1A6-B858-249FDEDD4BC6</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DELIVERY" id="D6350524-F6B3-BE67-CDAB-41867776A84D">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>C6510309-B1EF-82D5-0551-8CC3D8448A09</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D645FE3-D051-DE9D-4509-CB9A8B1F9E82" referredColumn="39667312-65A7-25CE-A55C-379032902370"/>
+</associations>
+</Column>
+<Column name="ID_SUC" id="034EA61C-5062-740B-1A16-B66451B82D22">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>15A95601-E027-B8DB-469C-F1E0C4A33D56</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDAEA546-CEAF-AED6-E4D8-AD9FDDEAE8F6" referredColumn="07BB0F75-37FD-E6E5-4955-AD2F12F742B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7E739DF-1441-D884-8722-B80E55548460" name="RADIO_ENTREGA_PK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>DF662190-50D1-B6D9-AF69-C52CB5432D77</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7B120B6-9E5D-7350-57F1-3E21BF96BC15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14917E3A-B401-E6F8-7BB5-3E771E25D7BB" name="RADIO_ENTREGA_SUCURSAL_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>BE2E4E8E-23C6-0060-4C4E-1B57BF3D5CB1</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="034EA61C-5062-740B-1A16-B66451B82D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B7702B0-18F6-6DD7-A8BD-12649E798D79" name="RADIO_ENTREGA_DELIVERY_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>B365951D-67B2-78D4-3084-6513DDED1B90</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6350524-F6B3-BE67-CDAB-41867776A84D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

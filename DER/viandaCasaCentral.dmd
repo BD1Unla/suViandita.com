@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="viandaCasaCentral" id="4326C135-7CC8-86E9-26DD-99AFBEF73CED" version="3.5">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-16 19:53:12 UTC</createdTime>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4326C135-7CC8-86E9-26DD-99AFBEF73CED</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3E15D68F-08C1-7D51-5F45-341CABDC43DD">
+<designStoragePath>C:\Users\carolina\Desktop\TPBD1\nuevoViandita</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

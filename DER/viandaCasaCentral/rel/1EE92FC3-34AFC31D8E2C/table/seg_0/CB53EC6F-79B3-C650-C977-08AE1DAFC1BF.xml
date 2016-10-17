@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB53EC6F-79B3-C650-C977-08AE1DAFC1BF" name="DET_MENU">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>A6EA6E82-2A16-5481-0696-394611213965</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLATO" id="D963BA21-285B-AF6F-7CA3-55795DEFE0D6">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>507FED13-9B1A-15AC-7726-7A5D3CDCB77F</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52C7803A-6430-7BA3-D211-24C072BF783F" referredColumn="7013546C-5A24-28B0-0A08-3F2AA918AEF1"/>
+</associations>
+</Column>
+<Column name="ID_MENU" id="DF4680CA-1C6E-EF86-45F1-C441BD1ABD1D">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>56D61590-7C60-020D-765E-F637F3F4A90D</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8551EED-A57A-9036-B82C-8CF1C7085A3F" referredColumn="D10B85BD-3DB5-60A9-0316-337D73D4EE3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD4C1426-4BC3-8926-C53B-841736FA3286" name="DET_MENU_PLATO_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:02 UTC</createdTime>
+<generatorID>63BE26D6-C587-D6E9-4BB7-5B9193908460</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D963BA21-285B-AF6F-7CA3-55795DEFE0D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C420D597-888E-E64B-89B3-647992D85C6C" name="DET_MENU_MENU_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:12:03 UTC</createdTime>
+<generatorID>2EDD7998-A278-B577-238C-F2891B927DCF</generatorID>
+<ownerDesignName>viandaCasaCentral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF4680CA-1C6E-EF86-45F1-C441BD1ABD1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

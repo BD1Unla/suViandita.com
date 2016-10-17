@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86CF0783-9A81-0705-260C-E0956FADC672" containerWithKeyObject="DBDAB179-8B1E-0C02-E794-08B670FBA249" localFKIndex="6201A002-DB64-2E7B-B733-7B8D530FF40D" name="NOTA_CREDITO_TC_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>725295B2-8339-D6BF-AB4E-78E6B5D98BF7</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>82D05BDA-1362-6E27-E8CC-7CD345BECB8A</referredTableID>
+<keyObject>90C49F17-C75D-62D2-6A56-BD2D9363C2BB</keyObject>
+<referredKeyID>90C49F17-C75D-62D2-6A56-BD2D9363C2BB</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

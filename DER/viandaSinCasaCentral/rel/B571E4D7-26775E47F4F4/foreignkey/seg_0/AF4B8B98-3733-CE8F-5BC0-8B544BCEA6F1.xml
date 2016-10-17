@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF4B8B98-3733-CE8F-5BC0-8B544BCEA6F1" containerWithKeyObject="0A3AB332-6503-99E4-0BA9-36AC5E767151" localFKIndex="27D35B58-565D-DA29-3B69-7917E686ECD8" name="PLATO_TIPO_PLATO_FK">
+<createdBy>carolina</createdBy>
+<createdTime>2016-10-17 04:05:52 UTC</createdTime>
+<generatorID>07778582-3BC0-228F-92F5-0813E45E428E</generatorID>
+<ownerDesignName>viandaSinCasaCentral</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AE82C89-AD0A-FB8E-6C42-9625E5F12CBD</referredTableID>
+<keyObject>A7227E04-D2DF-9A32-A1C3-1FE2F44F6748</keyObject>
+<referredKeyID>A7227E04-D2DF-9A32-A1C3-1FE2F44F6748</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
